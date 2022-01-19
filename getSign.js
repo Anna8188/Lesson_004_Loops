@@ -1,5 +1,5 @@
 "use strict";
-/*
+/* Task 6.
 Find the sign of product of three numbers without multiplication operator. Display the specified sign.
 
 Input -14, 5, 0  Output “unsigned”

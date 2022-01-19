@@ -14,6 +14,8 @@ function giveNumIndex(arr, num) {
     newArr.push(Math.abs(arr[i] - num));
     i++;
   }
+  console.log(newArr);
   let min = Math.min.apply(null, newArr);
   return newArr.indexOf(min);
 }
+console.log(giveNumIndex([36, -12, 47, -58, 148, -55, -19, 10], -56));
